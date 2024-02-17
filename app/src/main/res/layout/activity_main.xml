@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation ="horizontal"
+    android:gravity="center">
+ <TextView
+     android:id="@+id/mytextview"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Hello World"
+     android:textStyle="normal"
+     android:padding="@dimen/cardview_compat_inset_shadow"
+     android:gravity="bottom"
+     android:background="@color/white"
+     android:fontFamily="sans-serif"
+
+     />
+
+
+</LinearLayout>
+
+
